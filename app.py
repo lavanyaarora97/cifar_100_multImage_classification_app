@@ -143,7 +143,7 @@ def preprocess():
     st.pyplot()
 
     
-    with PdfPages('analysissi.pdf') as pdf:
+    with PdfPages('analysis.pdf') as pdf:
         
         # Add text "CIFAR-100 Image Classification Analysis"
         plt.figure(figsize=(8, 1))
